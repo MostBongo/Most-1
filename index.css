@@ -1,0 +1,128 @@
+
+.container {
+    width: 470px;
+    padding: 20px;
+    }
+   
+   .photo1{
+       width: 400px;
+   }
+/* Основные настройки */
+body {
+    font-family: 'Arial', sans-serif; /* Простой и читаемый шрифт */
+    background-color: #f4f4f9; /* Светлый фон для страницы */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Темный цвет текста для хорошей контрастности */
+}
+
+/* Центрирование контента */
+.container {
+    max-width: 1000px; /* Ограничиваем ширину контента */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Белый фон для контента */
+    border-radius: 8px; /* Закругленные углы для контейнера */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Заголовки */
+h1, h2 {
+    text-align: center;
+    color: #2c3e50; /* Темно-синий цвет для заголовков */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em; /* Большой размер для главного заголовка */
+}
+
+h2 {
+    font-size: 1.8em; /* Средний размер для подзаголовков */
+}
+
+/* Параграфы */
+p {
+    line-height: 1.6;
+    font-size: 1.1em; /* Чуть увеличенный размер шрифта */
+    margin-bottom: 20px;
+    color: #555; /* Темно-серый цвет для основного текста */
+}
+
+/* Стилизация таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Убираем лишние промежутки между ячейками */
+    margin-top: 20px;
+}
+
+table ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+table td, table th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Легкая граница для таблицы */
+}
+
+table th {
+    background-color: #f2f2f2; /* Светлый фон для заголовков таблицы */
+}
+
+/* Изображения */
+img.photo1 {
+    max-width: 100%; /* Изображение будет растягиваться на всю ширину контейнера */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Центрируем изображение */
+    border-radius: 5px; /* Закругленные углы у изображения */
+}
+
+/* Кнопки (если будут) */
+button {
+    background-color: #3498db; /* Синий цвет кнопки */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Более темный синий при наведении */
+}
+
+/* Респонсивность: уменьшение шрифтов и изменение структуры на мобильных устройствах */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+    
+    table {
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/
